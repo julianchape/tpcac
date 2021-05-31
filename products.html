@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>PCparts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="assets/img/icon.png">
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/icono.png">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/estilos.css">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+<body>
+	<nav id="main_nav" class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+		<div class="container d-flex">
+			<a class="navbar-brand h1 d-flex" href="index.html">
+				<i class='bx bxs-joystick bx-md text-danger'></i>
+				<div class="m-1">
+					<span class="text-light h4">PC</span><span class="text-danger h4">parts</span>
+				</div>
+			</a>
+			<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class='bx bx-menu bx-md text-danger'></i>
+			</button>
+			<div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+				id="navbar-toggler-success">
+				<div class="flex-fill mx-xl-5 mb-2">
+					<ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="about.html">Sobre
+								Nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="products.html">Productos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="pricing.html">Envíos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="contact.html">Contáctanos</a>
+						</li>
+					</ul>
+				</div>
+				<div class="navbar align-self-center d-flex">
+					<a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-danger'></i></a>
+					<a class="nav-link" href="#"><i class='bx bx-cog bx-sm bx-spin-hover text-danger'></i></a>
+					<a class="nav-link" href="#"><i class='bx bx-cart-alt bx-sm bx-tada-hover text-danger'></i></a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div id="work_banner" class="banner-wrapper bg-light w-100 py-5">
+		<div
+			class="banner-vertical-center-work container text-light d-flex justify-content-center align-items-center py-5 p-0">
+			<div class="banner-content col-lg-8 col-12 m-lg-auto text-center">
+				<h1 class="banner-heading h2 display-3 pb-5 semi-bold-600 typo-space-line-center">Productos</h1>
+				<h3 class="h4 pb-2 regular-400">Elit, sed do eiusmod tempor incididunt</h3>
+				<p class="banner-body pb-2 light-300">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error architecto commodi, iste minus qui distinctio
+					optio! Repellendus, quasi maxime, aut numquam asperiores nobis vitae laboriosam dicta minus exercitationem,
+					iure quam!
+				</p>
+				<a href="contact.html"><button type="submit"
+						class="btn rounded-pill btn-outline-light px-4 me-4 light-300">Consultas</button></a>
+				<a href="about.html"><button type="submit" class="btn rounded-pill btn-danger text-light px-4 light-300">Quienes
+						Somos</button></a>
+			</div>
+		</div>
+	</div>
+
+	<section class="container py-5">
+		<div class="row justify-content-center my-5">
+			<div class="filter-btns shadow-md rounded-pill text-center col-auto">
+				<a class="filter-btn btn rounded-pill btn-outline-danger border-0 m-md-2 px-md-4 active" data-filter=".project"
+					href="#">Todos</a>
+				<a class="filter-btn btn rounded-pill btn-outline-danger border-0 m-md-2 px-md-4" data-filter=".mp"
+					href="#">Procesadores</a>
+				<a class="filter-btn btn rounded-pill btn-outline-danger border-0 m-md-2 px-md-4" data-filter=".mb"
+					href="#">Memorias RAM</a>
+				<a class="filter-btn btn rounded-pill btn-outline-danger border-0 m-md-2 px-md-4" data-filter=".gc"
+					href="#">Tarjetas Gráficas</a>
+				<a class="filter-btn btn rounded-pill btn-outline-danger border-0 m-md-2 px-md-4" data-filter=".tc"
+					href="#">Teclados</a>
+			</div>
+		</div>
+
+		<div class="row projects gx-lg-5">
+
+			<a href="#" class="col-sm-6 col-lg-4 text-decoration-none project mp card-img-hover">
+				<div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
+					<img class="card-img-top" src="./assets/img/intel-5.jpg" alt="...">
+					<div class="card-body">
+						<h5 class="card-title light-300 text-dark">Intel i9 - Special Edition</h5>
+						<p class="card-text light-300 text-dark">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmod tempor incididunt ut labore et dolor.
+						</p>
+						<div class="d-flex flex-row justify-content-between">
+							<span class="text-dark light-300">
+								$99.999
+							</span>
+							<div>
+								<span class="text-dark light-300">
+									Ver Detalles
+								</span>
+								<i class='bx bxs-hand-right ms-1 text-danger'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="#" class="col-sm-6 col-lg-4 text-decoration-none project tc card-img-hover">
+				<div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+					<img class="card-img-top" src="./assets/img/teclado-1.jpg" alt="...">
+					<div class="card-body">
+						<h5 class="card-title light-300 text-dark">Teclado ...</h5>
+						<p class="card-text light-300 text-dark">
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<div class="d-flex flex-row justify-content-between">
+							<span class="text-dark light-300">
+								$99.999
+							</span>
+							<div>
+								<span class="text-dark light-300">
+									Ver Detalles
+								</span>
+								<i class='bx bxs-hand-right ms-1 text-danger'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="#" class="col-sm-6 col-lg-4 text-decoration-none project mp card-img-hover">
+				<div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+					<img class="card-img-top" src="./assets/img/intel-7.jpg" alt="...">
+					<div class="card-body">
+						<h5 class="card-title light-300 text-dark">Intel i9</h5>
+						<p class="card-text light-300 text-dark">
+							Duis aute irure dolor in reprehenderit in voluptate velit
+							esse cillum dolore eu fugiatdolore eu fugiat nulla pariatur.
+						</p>
+						<div class="d-flex flex-row justify-content-between">
+							<span class="text-dark light-300">
+								$99.999
+							</span>
+							<div>
+								<span class="text-dark light-300">
+									Ver Detalles
+								</span>
+								<i class='bx bxs-hand-right ms-1 text-danger'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="#" class="col-sm-6 col-lg-4 text-decoration-none project gc card-img-hover">
+				<div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+					<img class="card-img-top" src="./assets/img/gc-3.png" alt="...">
+					<div class="card-body">
+						<h5 class="card-title light-300 text-dark">GTX 1080 MSI</h5>
+						<p class="card-text light-300 text-dark">
+							Excepteur sint occaecat cupidatat non proident, sunt in
+							culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<div class="d-flex flex-row justify-content-between">
+							<span class="text-dark light-300">
+								$99.999
+							</span>
+							<div>
+								<span class="text-dark light-300">
+									Ver Detalles
+								</span>
+								<i class='bx bxs-hand-right ms-1 text-danger'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="" class="col-sm-6 col-lg-4 text-decoration-none project gc card-img-hover">
+				<div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+					<img class="card-img-top" src="./assets/img/gc-2.jpg" alt="...">
+					<div class="card-body p-4">
+						<h5 class="card-title light-300 text-dark">RTX 2080 TI Asus</h5>
+						<p class="card-text light-300 text-dark">
+							Excepteur sint occaecat cupidatat non proident,
+							sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<div class="d-flex flex-row justify-content-between">
+							<span class="text-dark light-300">
+								$99.999
+							</span>
+							<div>
+								<span class="text-dark light-300">
+									Ver Detalles
+								</span>
+								<i class='bx bxs-hand-right ms-1 text-danger'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="" class="col-sm-6 col-lg-4 text-decoration-none project mb card-img-hover">
+				<div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+					<img class="card-img-top" src="./assets/img/ram-8.jpg" alt="...">
+					<div class="card-body p-4">
+						<h5 class="card-title light-300 text-dark">Memoria Ram Corsair</h5>
+						<p class="card-text light-300 text-dark">
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<div class="d-flex flex-row justify-content-between">
+							<span class="text-dark light-300">
+								$99.999
+							</span>
+							<div>
+								<span class="text-dark light-300">
+									Ver Detalles
+								</span>
+								<i class='bx bxs-hand-right ms-1 text-danger'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="" class="col-sm-6 col-lg-4 text-decoration-none project tc card-img-hover">
+				<div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+					<img class="card-img-top" src="./assets/img/teclado-2.jpg" alt="...">
+					<div class="card-body p-4">
+						<h5 class="card-title light-300 text-dark">Teclado ...</h5>
+						<p class="card-text light-300 text-dark">
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<div class="d-flex flex-row justify-content-between">
+							<span class="text-dark light-300">
+								$99.999
+							</span>
+							<div>
+								<span class="text-dark light-300">
+									Ver Detalles
+								</span>
+								<i class='bx bxs-hand-right ms-1 text-danger'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="" class="col-sm-6 col-lg-4 text-decoration-none project mb card-img-hover">
+				<div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+					<img class="card-img-top" src="./assets/img/ram-1.jpg" alt="...">
+					<div class="card-body p-4">
+						<h5 class="card-title light-300 text-dark">Memoria Ram ...</h5>
+						<p class="card-text light-300 text-dark">
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<div class="d-flex flex-row justify-content-between">
+							<span class="text-dark light-300">
+								$99.999
+							</span>
+							<div>
+								<span class="text-dark light-300">
+									Ver Detalles
+								</span>
+								<i class='bx bxs-hand-right ms-1 text-danger'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="" class="col-sm-6 col-lg-4 text-decoration-none project mb card-img-hover">
+				<div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+					<img class="card-img-top" src="./assets/img/ram-6.jpg" alt="...">
+					<div class="card-body">
+						<h5 class="card-title light-300 text-dark">Memoria Ram ...</h5>
+						<p class="card-text light-300 text-dark">
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<div class="d-flex flex-row justify-content-between">
+							<span class="text-dark light-300">
+								$99.999
+							</span>
+							<div>
+								<span class="text-dark light-300">
+									Ver Detalles
+								</span>
+								<i class='bx bxs-hand-right ms-1 text-danger'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+
+		</div>
+
+		<div class="row">
+			<div class="btn-toolbar justify-content-center pb-4" role="toolbar" aria-label="Toolbar with button groups">
+				<div class="btn-group me-2" role="group" aria-label="First group">
+					<button type="button" class="btn btn-dark text-white">Ant.</button>
+				</div>
+				<div class="btn-group me-2" role="group" aria-label="Second group">
+					<button type="button" class="btn btn-danger">1</button>
+				</div>
+				<div class="btn-group me-2" role="group" aria-label="Second group">
+					<button type="button" class="btn btn-dark text-white">2</button>
+				</div>
+				<div class="btn-group" role="group" aria-label="Third group">
+					<button type="button" class="btn btn-dark text-white">Sig.</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-light pt-sm-0 py-5">
+		<div class="container py-5">
+
+			<h1 class="h2 semi-bold-600 text-center mt-2">Combos de actualización</h1>
+			<p class="text-center pb-5 light-300">Los mejores combos para actualizar tu PC.</p>
+
+			<div class="row justify-content-evenly">
+
+				<div class="card mb-3 py-4 col-5 card-img-hover">
+					<div class="row g-0">
+						<div class="col-md-12">
+							<img class="card-img-top py-2" src="./assets/img/combo-3.png" alt="Combo actualizacion">
+						</div>
+						<div class="col-md-12">
+							<div class="card-body">
+								<h5 class="card-title">Combo 1</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui repellendus
+									consequuntur adipisci illum inventore repudiandae beatae.</p>
+							</div>
+							<button class="ms-5 btn btn-danger">Detalles</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="card mb-3 py-4 col-5 card-img-hover">
+					<div class="row g-0">
+						<div class="col-md-12">
+							<img class="card-img-top py-2" src="./assets/img/combo-2.jpg" alt="Combo actualizacion">
+						</div>
+						<div class="col-md-12">
+							<div class="card-body">
+								<h5 class="card-title">Combo 2</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui repellendus
+									consequuntur adipisci illum inventore repudiandae beatae.</p>
+							</div>
+							<button class="ms-5 btn btn-danger">Detalles</button>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="bg-dark pt-4">
+		<div class="container">
+			<div class="row py-4">
+
+				<div class="col-lg-3 col-12 align-left">
+					<a class="navbar-brand d-flex h1" href="index.html">
+						<i class='bx bxs-joystick bx-md me-1 text-danger'></i>
+						<span class="text-light h3">PC</span><span class="text-danger h3 semi-bold-600">parts</span>
+					</a>
+					<p class="text-light my-lg-4 my-2">
+						Somos una plataforma web de insumos informáticos que nació para cambiar la forma en que se venden
+						componentes en Argentina.
+					</p>
+					<ul class="list-inline footer-icons light-300">
+						<li class="list-inline-item m-0">
+							<a class="text-light" target="_blank" href="http://facebook.com/">
+								<i class='bx bxl-facebook bx-md'></i>
+							</a>
+						</li>
+						<li class="list-inline-item m-0">
+							<a class="text-light" target="_blank" href="https://www.linkedin.com/">
+								<i class='bx bxl-linkedin bx-md'></i>
+							</a>
+						</li>
+						<li class="list-inline-item m-0">
+							<a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+								<i class='bx bxl-whatsapp bx-md'></i>
+							</a>
+						</li>
+						<li class="list-inline-item m-0">
+							<a class="text-light" target="_blank" href="https://www.instagram.com/">
+								<i class='bx bxl-instagram bx-md'></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-3 mt-4">
+					<h3 class="h4 pb-lg-3 text-light light-300">Nuestra Empresa</h2>
+						<ul class="list-unstyled text-light light-300">
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a class="text-decoration-none text-light"
+									href="index.html">Inicio</a>
+							</li>
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+									class="text-decoration-none text-light py-1" href="about.html">Sobre Nosotros</a>
+							</li>
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+									class="text-decoration-none text-light py-1" href="products.html">Productos</a>
+							</li>
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i></i><a
+									class="text-decoration-none text-light py-1" href="pricing.html">Envíos</a>
+							</li>
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+									class="text-decoration-none text-light py-1" href="contact.html">Contáctanos</a>
+							</li>
+						</ul>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-3 mt-4">
+					<h2 class="h4 pb-lg-3 text-light light-300">Más buscados</h2>
+					<ul class="list-unstyled text-light light-300">
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Tarjetas Gráficas</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Procesadores</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Discos SSD</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Memorias RAM</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Fuentes</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Gabinetes</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-3 mt-4">
+					<h2 class="h4 pb-lg-3 text-light light-300">Atendemos en:</h2>
+					<ul class="list-unstyled text-light light-300">
+						<li class="pb-2">
+							<i class='bx-fw bx bx-phone bx-xs text-danger'></i><a class="text-decoration-none text-light py-1"
+								href="tel:010-020-0340">1111-1111</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bx-mail-send bx-xs text-danger'></i><a class="text-decoration-none text-light py-1"
+								href="mailto:info@company.com">info@PCparts.com.ar</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="w-100 bg-danger py-3">
+			<div class="container">
+				<div class="row pt-2">
+					<div class="col-lg-6 col-sm-12">
+						<p class="text-lg-start text-center text-light light-300">
+							© Copyright 2021 PCparts. Todos los derechos reservados.
+						</p>
+					</div>
+					<div class="col-lg-6 col-sm-12">
+						<p class="text-lg-end text-center text-light light-300">
+							Diseñado por <a rel="sponsored" class="text-decoration-none text-light"
+								href="https://github.com/julianchape" target="_blank"><strong>Julián Chapela</strong></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/fslightbox.js"></script>
+	<script>
+		fsLightboxInstances['gallery'].props.loadOnlyCurrentSource = true;
+	</script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/isotope.pkgd.js"></script>
+	<script>
+		$(window).load(function () {
+			var $projects = $('.projects').isotope({
+				itemSelector: '.project',
+				layoutMode: 'fitRows'
+			});
+			$(".filter-btn").click(function () {
+				var data_filter = $(this).attr("data-filter");
+				$projects.isotope({
+					filter: data_filter
+				});
+				$(".filter-btn").removeClass("active");
+				$(".filter-btn").removeClass("shadow");
+				$(this).addClass("active");
+				$(this).addClass("shadow");
+				return false;
+			});
+		});
+	</script>
+
+</body>
+
+</html>

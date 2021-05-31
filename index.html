@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>PCparts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="assets/img/icon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/icono.png">
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/estilos.css">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+<body>
+
+	<nav id="main_nav" class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+		<div class="container d-flex justify-content-between align-items-center">
+			<a class="navbar-brand h1 d-flex" href="index.html">
+				<i class='bx bxs-joystick bx-md text-danger'></i>
+				<div class="m-1">
+					<span class="text-light h4">PC</span><span class="text-danger h4">parts</span>
+				</div>
+			</a>
+			<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class='bx bx-menu bx-md text-danger'></i>
+			</button>
+			<div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+				id="navbar-toggler-success">
+				<div class="flex-fill mx-xl-5 mb-2">
+					<ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="about.html">Sobre
+								Nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="products.html">Productos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="pricing.html">Envíos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn-outline-danger rounded-pill px-3" href="contact.html">Contáctanos</a>
+						</li>
+					</ul>
+				</div>
+				<div class="navbar align-self-center d-flex">
+					<a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-danger'></i></a>
+					<a class="nav-link" href="#"><i class='bx bx-cog bx-sm bx-spin-hover text-danger'></i></a>
+					<a class="nav-link" href="#"><i class='bx bx-cart-alt bx-sm bx-tada-hover text-danger'></i></a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="banner-wrapper bg-light">
+		<div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="bg-danger active"></li>
+					<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger"></li>
+					<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-danger"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="py-5 row d-flex align-items-center">
+							<div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+								<h1 class="banner-heading h1 text-light display-3 mb-0 pb-5 mx-0 px-0 semi-bold-600 typo-space-line">
+									Todo lo que buscas en un solo lugar
+								</h1>
+								<p class="banner-body regular-400 text-light py-3 mx-0 px-0">
+									Somos la empresa lider en venta de componentes de PC.
+								</p>
+								<a class="banner-button btn rounded-pill btn-outline-light btn-lg px-4" href="#"
+									role="button">Conocenos</a>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="py-5 row d-flex align-items-center">
+							<div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+								<h1 class="banner-heading h1 text-light display-3 mb-0 pb-3 mx-0 px-0 semi-bold-600 ">
+									Todo para tu PC
+								</h1>
+								<p class="banner-body regular-400 text-light py-3">
+									Procesadores, Memorias RAM, Tarjetas Gráficas y más.
+								</p>
+								<a class="banner-button btn rounded-pill btn-outline-light btn-lg px-4" href="#" role="button">Ver
+									productos</a>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="py-5 row d-flex align-items-center">
+							<div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+								<h1 class="banner-heading h1 text-light display-3 mb-0 pb-3 mx-0 px-0 semi-bold-600 ">
+									Hacemos envíos a todo el País
+								</h1>
+								<p class="banner-body regular-400 text-light py-3">
+									Consultá todos nuestros precios.
+								</p>
+								<a class="banner-button btn rounded-pill btn-outline-light btn-lg px-4" href="#"
+									role="button">Envíos</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button"
+					data-bs-slide="prev">
+					<i class='bx bx-chevron-left'></i>
+					<span class="visually-hidden">Ant.</span>
+				</a>
+				<a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button"
+					data-bs-slide="next">
+					<i class='bx bx-chevron-right'></i>
+					<span class="visually-hidden">Prox.</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<section class="service-wrapper py-3">
+		<div class="container-fluid pb-3">
+			<div class="row">
+				<h2 class="h2 text-center col-12 py-5 semi-bold-600">Productos destacados</h2>
+				<div class="service-header col-2 col-lg-3 text-end light-300">
+					<i class='bx bxs-game fs-1 text-danger'></i>
+				</div>
+				<div class="service-heading col-10 col-lg-9 text-start float-end light-300">
+					<h2 class="h3 pb-4 typo-space-line">Subí al siguiente nivel</h2>
+				</div>
+			</div>
+			<p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
+				No te quedes sin jugar los últimos éxitos
+			</p>
+		</div>
+		<div class="service-tag py-5 bg-dark">
+			<div class="col-md-12">
+				<ul class="nav d-flex justify-content-center">
+					<li class="nav-item mx-lg-4">
+						<a class="filter-btn nav-link btn-outline-danger active shadow rounded-pill text-light px-4 
+						light-300" href="#" data-filter=".project">Todo</a>
+					</li>
+					<li class="nav-item mx-lg-4">
+						<a class="filter-btn nav-link btn-outline-danger rounded-pill text-light px-4 light-300" href="#"
+							data-filter=".gc">Tarjetas Gráficas</a>
+					</li>
+					<li class="filter-btn nav-item mx-lg-4">
+						<a class="filter-btn nav-link btn-outline-danger rounded-pill text-light px-4 light-300" href="#"
+							data-filter=".mp">Procesadores</a>
+					</li>
+					<li class="nav-item mx-lg-4">
+						<a class="filter-btn nav-link btn-outline-danger rounded-pill text-light px-4 light-300" href="#"
+							data-filter=".mb">Memorias RAM</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="container overflow-hidden py-5">
+		<div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
+			<div class="col-xl-4 col-md-4 col-sm-6 project mb">
+				<div class="service-work card border-0 shadow-sm mx-5 mx-sm-0 card-img-hover">
+					<img src="./assets/img/ram-7.jpg" class="card-img-top" alt="Card image">
+					<div class="card-body">
+						<h5 class="card-title">Corsair DDR4</h5>
+						<p class="card-text">Dominator Platinum 16GB</p>
+						<a href="products.html" class="btn btn-outline-danger">Ver producto</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-md-4 col-sm-6 project mp">
+				<div class="service-work card border-0 shadow-sm mx-5 mx-sm-0 card-img-hover">
+					<img src="./assets/img/intel-5.jpg" class="card-img-top" alt="Card image">
+					<div class="card-body">
+						<h5 class="card-title">Corsair DDR4</h5>
+						<p class="card-text">Dominator Platinum 16GB</p>
+						<a href="products.html" class="btn btn-outline-danger">Ver producto</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-md-4 col-sm-6 project mb">
+				<div class="service-work card border-0 shadow-sm mx-5 mx-sm-0 card-img-hover">
+					<img src="./assets/img/ram-6.jpg" class="card-img-top" alt="Card image">
+					<div class="card-body">
+						<h5 class="card-title">Corsair DDR4</h5>
+						<p class="card-text">Dominator Platinum 16GB</p>
+						<a href="products.html" class="btn btn-outline-danger">Ver producto</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-md-4 col-sm-6 project mp">
+				<div class="service-work card border-0 shadow-sm mx-5 mx-sm-0 card-img-hover">
+					<img src="./assets/img/intel-6.jpg" class="card-img-top" alt="Card image">
+					<div class="card-body">
+						<h5 class="card-title">Corsair DDR4</h5>
+						<p class="card-text">Dominator Platinum 16GB</p>
+						<a href="products.html" class="btn btn-outline-danger">Ver producto</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-md-4 col-sm-6 project mp">
+				<div class="service-work card border-0 shadow-sm mx-5 mx-sm-0 card-img-hover">
+					<img src="./assets/img/amd-3.jpg" class="card-img-top" alt="Card image">
+					<div class="card-body">
+						<h5 class="card-title">Corsair DDR4</h5>
+						<p class="card-text">Dominator Platinum 16GB</p>
+						<a href="products.html" class="btn btn-outline-danger">Ver producto</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-md-4 col-sm-6 project mb">
+				<div class="service-work card border-0 shadow-sm mx-5 mx-sm-0 card-img-hover">
+					<img src="./assets/img/ram-9.jpg" class="card-img-top" alt="Card image">
+					<div class="card-body">
+						<h5 class="card-title">Corsair DDR4</h5>
+						<p class="card-text">Dominator Platinum 16GB</p>
+						<a href="products.html" class="btn btn-outline-danger">Ver producto</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-md-4 col-sm-6 project gc">
+				<div class="service-work card border-0 shadow-sm mx-5 mx-sm-0 card-img-hover">
+					<img src="./assets/img/gc-2.jpg" class="card-img-top" alt="Card image">
+					<div class="card-body">
+						<h5 class="card-title">Corsair DDR4</h5>
+						<p class="card-text">Dominator Platinum 16GB</p>
+						<a href="products.html" class="btn btn-outline-danger">Ver producto</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-md-4 col-sm-6 project gc">
+				<div class="service-work card border-0 shadow-sm mx-5 mx-sm-0 card-img-hover">
+					<img src="./assets/img/gc-3.png" class="card-img-top" alt="Card image">
+					<div class="card-body">
+						<h5 class="card-title">Corsair DDR4</h5>
+						<p class="card-text">Dominator Platinum 16GB</p>
+						<a href="products.html" class="btn btn-outline-danger">Ver producto</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-dark">
+		<div class="container py-5">
+			<div class="row d-flex justify-content-center text-center">
+				<div class="col-lg-2 col-12 text-light align-items-center">
+					<i class='display-1 bx bxs-package bx-lg text-light'></i>
+				</div>
+				<div class="col-lg-7 col-12 text-light pt-2">
+					<h3 class="h4 light-300">Envíos a todo el país</h3>
+					<p class="light-300">Consultá nuestras promociones.</p>
+				</div>
+				<div class="col-lg-3 col-12 pt-4">
+					<a href="#" class="btn btn-danger rounded-pill btn-block shadow px-4 py-2">Envíos</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-5 mb-5">
+		<div class="container">
+			<div class="recent-work-header row text-center pb-5">
+				<h2 class="col-md-6 m-auto h2 semi-bold-600 py-5 typo-space-line-center">Principales marcas</h2>
+			</div>
+			<div class="row gy-5 g-lg-5 mb-4">
+
+				<div class="col-6 col-md-4 mb-3">
+					<div class="card-border">
+						<a href="#" class="card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+							<img class="card-img card-img-hover" src="./assets/img/intel-logo.png" alt="Card image">
+						</a>
+						<div class="d-flex flex-column mt-3 text-dark align-items-center">
+							<h4 class="mb-3">Intel</h4>
+							<div class="btn btn-outline-danger rounded-pill mb-lg-3 px-lg-4 regular-400">Ver productos
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-md-4 mb-3">
+					<div class="card-border">
+						<a href="#" class="card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+							<img class="card-img card-img-hover" src="./assets/img/nvidia-logo.jpg" alt="Card image">
+						</a>
+						<div class="d-flex flex-column mt-3 text-dark align-items-center">
+							<h4 class="mb-3">Nvidia</h4>
+							<div class="btn btn-outline-danger rounded-pill mb-lg-3 px-lg-4 regular-400">Ver productos
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-md-4 mb-3">
+					<div class="card-border">
+						<a href="#" class="card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+							<img class="card-img card-img-hover" src="./assets/img/amd-logo.jpg" alt="Card image">
+						</a>
+						<div class="d-flex flex-column mt-3 text-dark align-items-center">
+							<h4 class="mb-3">AMD</h4>
+							<div class="btn btn-outline-danger rounded-pill mb-lg-3 px-lg-4 regular-400">Ver productos
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-md-4 mb-3">
+					<div class="card-border">
+						<a href="#" class="card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+							<img class="card-img card-img-hover" src="./assets/img/cooler-master-logo.png" alt="Card image">
+						</a>
+						<div class="d-flex flex-column mt-3 text-dark align-items-center">
+							<h4 class="mb-3">Cooler Master</h4>
+							<div class="btn btn-outline-danger rounded-pill mb-lg-3 px-lg-4 regular-400">Ver productos
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-md-4 mb-3">
+					<div class="card-border">
+						<a href="#" class="card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+							<img class="card-img card-img-hover" src="./assets/img/wd-logo.png" alt="Card image">
+						</a>
+						<div class="d-flex flex-column mt-3 text-dark align-items-center">
+							<h4 class="mb-3">Western Digital</h4>
+							<div class="btn btn-outline-danger rounded-pill mb-lg-3 px-lg-4 regular-400">Ver productos
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-md-4 mb-3">
+					<div class="card-border">
+						<a href="#" class="card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+							<img class="card-img card-img-hover" src="./assets/img/asus-logo.svg" alt="Card image">
+						</a>
+						<div class="d-flex flex-column mt-3 text-dark align-items-center">
+							<h4 class="mb-3">Asus</h4>
+							<div class="btn btn-outline-danger rounded-pill mb-lg-3 px-lg-4 regular-400">Ver productos
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg-dark pt-4">
+		<div class="container">
+			<div class="row py-4">
+
+				<div class="col-lg-3 col-12 align-left">
+					<a class="navbar-brand d-flex h1" href="index.html">
+						<i class='bx bxs-joystick bx-md me-1 text-danger'></i>
+						<span class="text-light h3">PC</span><span class="text-danger h3 semi-bold-600">parts</span>
+					</a>
+					<p class="text-light my-lg-4 my-2">
+						Somos una plataforma web de insumos informáticos que nació para cambiar la forma en que se venden
+						componentes en Argentina.
+					</p>
+					<ul class="list-inline footer-icons light-300">
+						<li class="list-inline-item m-0">
+							<a class="text-light" target="_blank" href="http://facebook.com/">
+								<i class='bx bxl-facebook bx-md'></i>
+							</a>
+						</li>
+						<li class="list-inline-item m-0">
+							<a class="text-light" target="_blank" href="https://www.linkedin.com/">
+								<i class='bx bxl-linkedin bx-md'></i>
+							</a>
+						</li>
+						<li class="list-inline-item m-0">
+							<a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+								<i class='bx bxl-whatsapp bx-md'></i>
+							</a>
+						</li>
+						<li class="list-inline-item m-0">
+							<a class="text-light" target="_blank" href="https://www.instagram.com/">
+								<i class='bx bxl-instagram bx-md'></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-3 mt-4">
+					<h3 class="h4 pb-lg-3 text-light light-300">Nuestra Empresa</h2>
+						<ul class="list-unstyled text-light light-300">
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a class="text-decoration-none text-light"
+									href="index.html">Inicio</a>
+							</li>
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+									class="text-decoration-none text-light py-1" href="about.html">Sobre Nosotros</a>
+							</li>
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+									class="text-decoration-none text-light py-1" href="products.html">Productos</a>
+							</li>
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i></i><a
+									class="text-decoration-none text-light py-1" href="pricing.html">Envíos</a>
+							</li>
+							<li class="pb-2">
+								<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+									class="text-decoration-none text-light py-1" href="contact.html">Contáctanos</a>
+							</li>
+						</ul>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-3 mt-4">
+					<h2 class="h4 pb-lg-3 text-light light-300">Más buscados</h2>
+					<ul class="list-unstyled text-light light-300">
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Tarjetas Gráficas</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Procesadores</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Discos SSD</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Memorias RAM</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Fuentes</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bxs-chevron-right bx-xs text-danger'></i><a
+								class="text-decoration-none text-light py-1" href="#">Gabinetes</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-3 mt-4">
+					<h2 class="h4 pb-lg-3 text-light light-300">Atendemos en:</h2>
+					<ul class="list-unstyled text-light light-300">
+						<li class="pb-2">
+							<i class='bx-fw bx bx-phone bx-xs text-danger'></i><a class="text-decoration-none text-light py-1"
+								href="tel:010-020-0340">1111-1111</a>
+						</li>
+						<li class="pb-2">
+							<i class='bx-fw bx bx-mail-send bx-xs text-danger'></i><a class="text-decoration-none text-light py-1"
+								href="mailto:info@company.com">info@pcparts.com.ar</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="w-100 bg-danger py-3">
+			<div class="container">
+				<div class="row pt-2">
+					<div class="col-lg-6 col-sm-12">
+						<p class="text-lg-start text-center text-light light-300">
+							© Copyright 2021 PCparts. Todos los derechos reservados.
+						</p>
+					</div>
+					<div class="col-lg-6 col-sm-12">
+						<p class="text-lg-end text-center text-light light-300">
+							Diseñado por <a rel="sponsored" class="text-decoration-none text-light"
+								href="https://github.com/julianchape" target="_blank"><strong>Julián Chapela</strong></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/isotope.pkgd.js"></script>
+	<script>
+		$(window).load(function () {
+			var $projects = $('.projects').isotope({
+				itemSelector: '.project',
+				layoutMode: 'fitRows'
+			});
+			$(".filter-btn").click(function () {
+				var data_filter = $(this).attr("data-filter");
+				$projects.isotope({
+					filter: data_filter
+				});
+				$(".filter-btn").removeClass("active");
+				$(".filter-btn").removeClass("shadow");
+				$(this).addClass("active");
+				$(this).addClass("shadow");
+				return false;
+			});
+		});
+	</script>
+</body>
+
+</html>
